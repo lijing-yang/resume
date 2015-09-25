@@ -1,0 +1,80 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{孟佳}
+
+% {E-mail}{mobilephone}{homepage}
+\contactInfo{mjjxyf@gmail.com}{(+86) 152-0150-4307}{https://github.com/lijing-yang/}
+% {E-mail}{mobilephone}
+%\basicContactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{北京大学}, 北京}{2014 -- 至今}
+\textit{在读硕士研究生}\ 计算机科学与技术, 预计 2017 年 7 月毕业
+\datedsubsection{\textbf{首都经济贸易大学}, 北京}{2010 -- 2014}
+\textit{学士}\ 信息管理与信息系统
+
+\section{\faUsers\ 实习/项目经历}
+\datedsubsection{\textbf{Intel多核实验室  } 北京大学}{2015年3月 -- 至今}
+\role{科研}{个人项目}
+\begin{onehalfspacing}
+研究图遍历算法中的读写效率优化和负载均衡
+\begin{itemize}
+  \item 将Radii算法通过负载均衡优化比ligra中性能提升60\%以上
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{北大方正电子有限公司}}{2014年3月 -- 2015年2月}
+\role{实习}{测试实习生}
+\begin{onehalfspacing}
+抓取新闻网站中各级新闻链接并进行模板测试的第一步工作
+\begin{itemize}
+  \item 主动学习了模板配置工作，修改了库中错误模板，提高了小组工作效率
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{网络编程  }首都经济贸易大学}{2013 年9月 -- 2014年1月}
+\role{网站}{个人项目}
+\begin{onehalfspacing}
+设计开发志愿者工作宣传网站
+\begin{itemize}
+  \item 静态网页的页面设计与实现
+  \item 动态网页的功能设计与实现
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{管理信息系统  }首都经济贸易大学}{2012 年9月 -- 2013年1月}
+\role{项目}{小组项目}
+\begin{onehalfspacing}
+完成血库管理系统的分析、设计、开发、测试过程
+\begin{itemize}
+  \item 数据库的开发与维护
+  \item 系统界面设计与实现
+\end{itemize}
+\end{onehalfspacing}
+
+\section{\faCogs\ 个人技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: c++>c>Java=JavaScript>python
+  \item 语言：中文,英文
+\end{itemize}
+
+\section{\faHeartO\ 获奖情况}
+\datedline{\textit{证书},中国儿童环保教育计划颁发的“志愿者证书”}{2011年7月}
+\datedline{\textit{证书},首都经济贸易大学颁发的”优秀干部”称号}{2010年9月}
+\datedline{\textit{四次}, 二等人民奖学金}{2011年9月-2013年7月}
+\datedline{\textit{两次}, 三等人民奖学金}{2010年9月-2011年7月}
+
+\section{\faInfo\ 学生工作}
+\datedsubsection{\textbf{首都经济贸易大学志愿者协会部长}}{2011年9月 -- 2012年7月}
+
+\end{document}
